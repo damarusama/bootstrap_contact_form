@@ -1,5 +1,5 @@
 Bootstrap contact Form
-______________________
+======================
 
 This is a really simple contact form for bootstrap. It uses an external php file for the submission, jquery for validation, it uses the bootstrap form layout and modal pop up for success and failure message. All of this keeps this plugin minimal and flexible.  
 
