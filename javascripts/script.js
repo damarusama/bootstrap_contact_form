@@ -1,8 +1,9 @@
 // 
 //	jQuery Validate example script
-//	and getQuerystring for error message 
-//	and success message
 //
+//	Prepared by David Cochran
+//	
+//	Free for your use -- No warranties, no guarantees!
 //
 
 function getQuerystring(key, default_) {
