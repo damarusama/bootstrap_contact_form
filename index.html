@@ -66,19 +66,19 @@
 					case 'POST':
 					$('.modal-header').html('h1>Form submitted...</h1>');
 					$('.modal-body').html('<h2>Everything <em>seemed</em> to be correct.</h2>');
-					$('.modal-footer').html('<a href="#" class="btn" data-dismiss="modal">Fermer</a>');
+					$('.modal-footer').html('<a href="#" class="btn" data-dismiss="modal">Close</a>');
 					$('#formMode').modal('show');
 					break
 					case 'success':
 					$('.modal-header').html('');
-					$('.modal-body').html('<div class="alert alert-block alert-success"><h4 class="alert-heading">Votre message a été envoyé </h4>Nous alons bientôt vous repondre!</div>');
+					$('.modal-body').html('<div class="alert alert-block alert-success"><h4 class="alert-heading">Your message was sent</h4>We will respond to you shortly</div>');
 					$('.modal-footer').html('<a href="index.html" class="btn btn-success" data-dismiss="modal">Close</a>');
 					$('#formMode').modal('show');
 					break
 					case 'fail':
 					$('.modal-header').html('');
-					$('.modal-body').html('<div class="alert alert-block alert-error"><h4 class="alert-heading">Le message na pas été envoyé. Vous pouvez réessayer dans queqles instant ou nous écrire à isabellebstar@gmail.com</div>');
-					$('.modal-footer').html('<a href="#" class="btn btn-danger" data-dismiss="modal">Fermer</a>');
+					$('.modal-body').html('<div class="alert alert-block alert-error"><h4 class="alert-heading">The message was not sent</div>');
+					$('.modal-footer').html('<a href="#" class="btn btn-danger" data-dismiss="modal">Close</a>');
 $('#formMode').modal('show');
 					
 					};
